@@ -121,30 +121,26 @@
               PteroBilling
             </h3>
             <p>
-              <!--
-              <img
+              <!--<img
                 alt="stable release badge"
                 src="https://img.shields.io/github/v/release/pterobilling/pterobilling?color=green&label=stable&style=for-the-badge"
               />
               <img
                 alt="latest release badge"
                 src="https://img.shields.io/github/v/release/pterobilling/pterobilling?include_prereleases&label=latest&style=for-the-badge"
-              />
-              -->
+              />-->
               <img
                 alt="stars badge"
                 src="https://img.shields.io/github/stars/pterobilling/pterobilling?style=for-the-badge"
               />
               <img
-                alt="GitHub watchers"
+                alt="watchers badge"
                 src="https://img.shields.io/github/watchers/pterobilling/pterobilling?style=for-the-badge"
               />
-              <!--
-              <img
+              <!--<img
                 alt="downloads badge"
-                src="https://img.shields.io/github/downloads/pterobilling/pterobilling/total?label=downloads&style=for-the-badge"
-              />
-              -->
+                src="https://img.shields.io/packagist/dt/pterobilling/pterobilling?color=brightgreen&style=for-the-badge"
+              />-->
             </p>
             <a
               class="btn btn-primary"
@@ -291,5 +287,23 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     <!-- Core theme JS-->
     <script src="/js/scripts.js"></script>
+    <!-- The most simple adblock detection code you have ever seen!!! -->
+    <script>
+      function detectAdBlock(tries = 0) {
+        setTimeout(function() {
+          if (tries >= 3) {
+            document.body.innerHTML = null;
+            alert(
+              "Please disable your ad blocker before continuing to browse this website. If this is a false positive, please contact me (Alaister) to fix the bug. Thank you very much!"
+            );
+            window.location.replace("/adblock");
+          } else if (typeof isCloudflareAppsEnabled == "undefined") {
+            detectAdBlock(tries + 1);
+            console.warn("Ad blocker detected!");
+          }
+        }, 1000);
+      }
+      detectAdBlock(0);
+    </script>
   </body>
 </html>
