@@ -111,36 +111,40 @@
         <!-- Portfolio Grid Items -->
         <div class="row justify-content-center">
           <!-- Portfolio Items -->
-          <div class="col-md-8 col-lg-6 mb-12" align="center">
+          <div class="col-md-3 col-lg-3 mb-12" align="center">
             <img
               src="https://raw.githubusercontent.com/pterobilling/pterobilling/master/.github/icon_blue.png"
               alt="PteroBilling"
               width="150px"
             />
-            <h3>
-              PteroBilling
-            </h3>
+          </div>
+          <div class="col-md-9 col-lg-9 mb-12" align="left">
+            <h3>PteroBilling</h3>
+            <h5>
+              An open-source online store, client area, and billing software
+              specially made for Pterodactyl panel
+            </h5>
             <p>
-              <!--<img
+              <img
                 alt="stable release badge"
-                src="https://img.shields.io/github/v/release/pterobilling/pterobilling?color=green&label=stable&style=for-the-badge"
-              />
+                src="https://img.shields.io/github/v/release/pterobilling/pterobilling?sort=semver&color=green&label=stable&style=for-the-badge"
+              />&emsp;
               <img
                 alt="latest release badge"
-                src="https://img.shields.io/github/v/release/pterobilling/pterobilling?include_prereleases&label=latest&style=for-the-badge"
-              />-->
+                src="https://img.shields.io/github/v/release/pterobilling/pterobilling?include_prereleases&sort=semver&label=latest&style=for-the-badge"
+              />&emsp;
               <img
                 alt="stars badge"
                 src="https://img.shields.io/github/stars/pterobilling/pterobilling?style=for-the-badge"
-              />
+              />&emsp;
               <img
                 alt="watchers badge"
                 src="https://img.shields.io/github/watchers/pterobilling/pterobilling?style=for-the-badge"
-              />
-              <!--<img
+              />&emsp;
+              <img
                 alt="downloads badge"
                 src="https://img.shields.io/packagist/dt/pterobilling/pterobilling?color=brightgreen&style=for-the-badge"
-              />-->
+              />
             </p>
             <a
               class="btn btn-primary"
@@ -150,7 +154,13 @@
             >
             <a
               class="btn btn-primary"
-              href="https://pterobilling.alaister.net"
+              href="https://packagist.org/packages/pterobilling/pterobilling"
+              target="_blank"
+              >Packagist</a
+            >
+            <a
+              class="btn btn-primary"
+              href="https://docs.alaister.net"
               target="_blank"
               >Docs</a
             >
@@ -296,7 +306,7 @@
             alert(
               "Please disable your ad blocker before continuing to browse this website. If this is a false positive, please contact me (Alaister) to fix the bug. Thank you very much!"
             );
-            window.location.replace("/adblock");
+            location.reload();
           } else if (typeof isCloudflareAppsEnabled == "undefined") {
             detectAdBlock(tries + 1);
             console.warn("Ad blocker detected!");
