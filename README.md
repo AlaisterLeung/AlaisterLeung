@@ -4,7 +4,7 @@
 <p align="center"> 🌱 I’m currently learning on <b>FreeCodeCamp</b> and <b>CS50</b></p>
 <p align="center"> 💬 Reach me on Discord <b>alaisterleung</b></p>
 
-<img align="center" src="./divider.gif" width="100%" />
+<div align="center"><img align="center" src="./divider.gif" width="600px" height="10px" /></div>
 
 <h3 align="center">Languages & Tools</h3>
 <p align="center">
@@ -69,21 +69,21 @@
 </a>
 </p>
 
-<img align="center" src="./divider.gif" width="100%" />
+<div align="center"><img align="center" src="./divider.gif" width="600px" height="10px" /></div>
 
 <h3 align="center">Connect with me</h3>
 <div align="center">
-<table border="0">
+<table width="50%">
 <tr>
-<td align="center">
+<td align="center" width="50%">
 <a href="https://twitter.com/alaisterleung">
-<img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="twitter" height="30" width="40" />
+<img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="twitter" height="30" width="40" /><br />
 @AlaisterLeung
 </a>
 </td>
-<td align="center">
+<td align="center" width="50%">
 <a href="https://stackoverflow.com/users/14772173">
-<img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="stackoverflow" height="30" width="40" />
+<img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="stackoverflow" height="30" width="40" /><br />
 Alaister
 </a>
 </td>
